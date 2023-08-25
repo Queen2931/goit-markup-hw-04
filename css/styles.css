@@ -260,9 +260,11 @@ body {
   width: 44px;
   height: 44px;
 }
-.footer_list_icon:hover > .foot_focus,
-.footer_list_icon:focus > .foot_focus,
-.footer_list_icon:focus-within > .foot_focus {
+.foot_focus:hover {
+  background-color: var(--select-color);
+}
+
+.foot_focus:focus {
   background-color: var(--select-color);
 }
 
