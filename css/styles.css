@@ -534,13 +534,11 @@ svg {
   padding: 14px 32px;
 }
 .client_focus:hover > .client_icon,
-.client_focus:focus > .client_icon,
-.client_focus:focus-within > .client_icon {
+.client_focus:focus > .client_icon {
   fill: var(--select-color);
 }
-.client:hover > .client_focus,
-.client:focus > .client_focus,
-.client:focus-within > .client_focus {
+.client_focus:hover,
+.client_focus:focus {
   border-color: var(--select-color);
   cursor: pointer;
 }
